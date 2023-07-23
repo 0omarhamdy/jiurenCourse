@@ -1,16 +1,6 @@
 from time import sleep
 from random import randint
-
-
-def ftoc(f):
-    c = (f - 32) / 1.8
-    return c
-
-
-def print_sleep(text, time=0.5):
-    print(text)
-    sleep(time)
-
+from helper_functions import even_or_odd, ftoc, print_sleep
 
 print_sleep('Welcome to Jikan')
 
