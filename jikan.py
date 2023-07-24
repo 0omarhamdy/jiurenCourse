@@ -32,6 +32,8 @@ if 2023 > year >= 1995:
     print_sleep(f"{f} is {c: .1f} C")
     print_sleep("Awesome!")
     print_sleep("let's go for the next Level!")
+    print_sleep(even_or_odd(4))
+
 elif  1950 >= year >= 1930:
     print('Alan Turing!')
     
