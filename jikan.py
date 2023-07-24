@@ -28,11 +28,12 @@ if 2023 > year >= 1995:
     ready = input('ready to ?')
     print_sleep("let's excute your ftoc function!")
     
-    c = ftoc(f)
+    c = ftoc(f) 
     print_sleep(f"{f} is {c: .1f} C")
     print_sleep("Awesome!")
     print_sleep("let's go for the next Level!")
-    print_sleep(even_or_odd(4))
+    num = randint(0, 10000)
+    print_sleep(even_or_odd(num))
 
 elif  1950 >= year >= 1930:
     print('Alan Turing!')
