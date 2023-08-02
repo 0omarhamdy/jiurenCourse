@@ -42,11 +42,11 @@ elif  1950 >= year >= 1930:
     name = choice(names)
     print_sleep(name)
     enc = encrypt(name)
-    print_sleep("it becomes: {enc}")
+    print_sleep(f"it becomes: {enc}")
     print_sleep("now decrypt it!")
     dec = decrypt(enc)
     print_sleep(dec)
-    
+
 elif 1870 >= year >= 1840:
     print_sleep('Charles Babbage!')
     print_sleep('Solve the math challenge!')
