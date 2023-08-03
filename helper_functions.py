@@ -41,3 +41,18 @@ def calculator(num1, op, num2):
     return eval(f"{num1} {op} {num2}")
     # use conventioal if to make the calc if you want
 
+def calculator_if(num1, op, num2):
+    if op == "+":
+        return num1 + num2
+    elif op == "-":
+        return num1 - num2
+    elif op == "*":
+        return num1 * num2
+    elif op == "/":
+        if num2 != 0:
+            return num1 / num2
+        else:
+            return "Error: Cannot divide by zero."
+    else:
+        return "Error: Invalid operator."
+    # use conventioal if to make the calc if you want
