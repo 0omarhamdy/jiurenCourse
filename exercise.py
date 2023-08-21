@@ -10,6 +10,7 @@ def vowels(name):
     
 
 print(vowels("omar"))
+
 print("###################################################")
 
 
@@ -30,7 +31,9 @@ def bmi_cat(bmi):
 
 bmi = bmi_calculator(70, 1.75)
 cat = bmi_cat(bmi)
+
 print(f"bmi = {bmi}, cat = {cat}")
+
 print("###################################################")
 
 
@@ -50,4 +53,29 @@ def guess(nt=5):
         
 nt = int(input("tries: "))
 guess(nt)
+
+print("###################################################")
+
+
+def bekh_fekh(n=100):
+    for i in range(n):
+        if i % 3 == 0 and i % 5 == 0:
+            print("بخ فخ")
+        elif i % 3 == 0:
+            print("بخ")
+        elif i % 5 == 0:
+            print("فخ")
+        else:
+            print(i)
+
+bekh_fekh()
+print("###################################################")
+
+def currency_exchanger(cur, amount):
+    curs = {'USD': 31, 'EUR': 34, 'GBP': 40, 'JPY':0.2, 'RUB':0.3}
+    r = curs[cur] * amount
+    return r
+
+
+print(currency_exchanger('JPY', 10000))
 print("###################################################")
